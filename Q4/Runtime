@@ -1,0 +1,9 @@
+Let the string be of length n. 
+
+We need to check for every character and we need to add them to a stack accordingly. 
+
+	Stack operations of push , pop and top are O(1). 
+
+Traversing is O(n) 
+
+	====> O(n) 

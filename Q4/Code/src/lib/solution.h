@@ -4,10 +4,13 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <stack>
 
 class Solution {
 public:
   std::string PrintHelloWorld();
+
+  bool isValid(const std::string &s);
 
   
 };
