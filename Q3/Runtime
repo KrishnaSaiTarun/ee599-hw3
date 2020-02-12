@@ -1,0 +1,60 @@
+ 
+ n = size of the linked List 
+ 
+ 
+ SinglyLinkedList(const std::vector<int> &inputs, int i):
+ 
+ 			This takes O(n) to construct the linked list by connecting element by element. 
+
+~SinglyLinkedList() { } // destructor, cleans up
+
+			O(n) to erase all the elements
+
+		
+bool empty(); // checks if empty
+
+			O(1) because I am maintaining a size variable. 
+			
+int size(); // returns size
+
+			O(1) because I am maintaining a size variable.
+			
+			
+void push_back(int i); // inserts at the back
+
+			O(n) as we have to traverse before we insert the element 
+			
+			
+void push_front(int i); // inserts at the front
+
+			O(1) as we have the access to the front
+			
+			
+void insert_after(ListNode* p, int i); // inserts value i after p
+
+			Worst case: O(n) as we have to traverse till pointer p.
+			
+			
+void erase(ListNode* p); // Erases node p
+
+			Worst Case: O(n) as we have to traverse till the element to be erased
+			
+			
+void pop_front(); // removes the first item
+
+			O(1) as we have access to the first element. 
+			
+			
+void pop_back(); // removes the last item
+
+			O(n) as we have to traverse till the end. 
+			
+			
+int back(); // returns the value of last item
+
+			O(n) as we have to traverse till the end. 
+			
+			
+int front(); // returns the value of first item
+
+			O(1) as we have access to the first element

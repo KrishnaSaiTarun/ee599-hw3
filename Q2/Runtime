@@ -1,0 +1,9 @@
+Runtime analysis for 2-sum
+
+	Here we are iterating through the vector once that is if we dont find the element till the end. ---> O(n) where n is the size of the vector
+	
+	Next we search in the unordered_map and it is O(1) 
+	
+	All the unordered_map operations are O(1)
+	
+	So, the time complexity is O(n) 
