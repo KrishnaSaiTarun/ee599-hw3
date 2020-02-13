@@ -1,0 +1,12 @@
+
+For constructor: The whole variables are set up. The vector is copied which is O(n). 
+
+For Option 1: O(1) : Instant Access 
+
+For Option 2: O(1) : Instant Access 
+
+For Option 3: O(1) : Instant Access 
+
+For Option 4: O(1) : Instant Access 
+
+For Option 5: Exit!
