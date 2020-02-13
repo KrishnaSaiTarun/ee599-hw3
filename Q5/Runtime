@@ -1,0 +1,7 @@
+The operations are increment and decrement and other basic arithmetic operations on 3 members of the class ::: Maths, Computers and Physics. 
+
+Time Complexity is : O(3) ===> O(1).
+
+If the class had n memebers the copy constructor takes O(n) time. 
+
+ 

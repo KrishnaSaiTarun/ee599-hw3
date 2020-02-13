@@ -17,8 +17,16 @@ public:
   AcademicRecord(const int m , const int c, const int p);
   AcademicRecord(const AcademicRecord &copy);
 
-  AcademicRecord operator ++();
-  AcademicRecord operator ++(int);
+  void operator ++();
+  void operator ++(int);
+
+  void operator --();
+  void operator --(int);
+
+  void operator +=(int);
+  void operator -=(int);
+
+  bool operator ==(const AcademicRecord &a);
 
   void printRes();
 
