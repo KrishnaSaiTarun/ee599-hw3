@@ -1,0 +1,43 @@
+ 
+ 
+	1. Passing params by value:
+	
+	
+		Pros:
+			the original will not be modified and this can help when you dont want to modify the original data. 
+		
+		Cons: The whole data has to be copied and this can be costly when the data is big. Ex: A whole Dictionary. 
+		
+	
+	2. Passing params by pointers: 
+	
+		Pros: 
+			There wont be a need to copy the entire data as the pointer to data is sent. 
+			The pointers can be assigned to NULL if necessary.
+			The iteration over data can be done using ++ / -- operations. Other arithmatic operations are supported. 
+			
+		Cons: Pointers need to be dereferenced to get the value at the pointer location and it gets quite messy in the syntax area. 
+		      
+	
+	
+	3. Passing params by reference: 
+	
+		Pros: 
+			copying of big data is not done. This is good when you want ot make modifications to the original through the function.
+			The reference object can be used directly and we do not need to dereference anything.  
+			
+		Cons: 
+			
+			The object has to be passed and not pointers.
+			need to check if the object is NULL before making any changes. Sometimes changing the original might not be desired and it can happen. 
+			
+	4. Passing params using const references:
+	
+		Pros: 
+			Again, there is no copying of huge data. 
+			The original cannot be changed as well. This is good when you are passing read only data. 
+			
+		Cons: 
+		
+			Sometimes you might want to add an entry into the data structure like a map and in that case const opposes it.  
+			
